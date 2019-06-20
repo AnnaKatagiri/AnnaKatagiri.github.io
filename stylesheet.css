@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family: "Microsoft Sans Serif";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+
+.top-wrapper {
+  padding: 250px 0px 100px 0px;
+  height: 600px;
+  background-image: url(asagohan.jpg);
+  color: white;
+  background-size: cover;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 70px;
+  letter-spacing: 2px;
+  color: black;
+}
+
+.top-wrapper p {
+  color: black;
+  font-size: 20px;
+
+}
+
+header {
+  height: 80px;
+  width: 100%;
+  background-color: rgba(34,100,120,1);
+}
