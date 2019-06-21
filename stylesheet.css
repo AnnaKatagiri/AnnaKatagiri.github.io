@@ -44,17 +44,19 @@ header {
   background-color: rgba(34,100,120,1);
 }
 
+
 .heading h2 {
-  padding :570px 0px 0px 0px;
+  padding :20px 0px 0px 0px;
   font-size: 50px;
   color: black;
   letter-spacing: 3px;
+  text-align: center;
 }
 
 .lesson-icon img{
     float: left;
-    width: 370px;
-    padding-bottom: 150px;
+    width: 350px;
+    padding-bottom: 0px;
 }
 
 .lesson-icon p{
@@ -62,19 +64,20 @@ header {
   padding-left: 40px;
 }
 
+.hobby-wrapper {
+  padding: 500px 0px 4000px 0px;
+  text-align: center;
+}
+
 .heading h3 {
-  padding : 700px 0px 0px 0px;
+  padding :20px 0px 0px 0px;
   font-size: 50px;
   color: black;
   letter-spacing: 3px;
-}
-.photo img{
-  float: left;
-  width: 390px;
-  padding-bottom: 40px;
+  text-align: center;
 }
 
-.photo p{
-  color: red;
-  padding-bottom: 20px;
+.hobby-icon img{
+  float: light;
+  width: 380px
 }
