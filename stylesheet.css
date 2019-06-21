@@ -13,6 +13,9 @@ a {
   margin: 0 auto;
 }
 
+.font_test{
+  color: #0489B1;
+}
 
 .top-wrapper {
   padding: 250px 0px 100px 0px;
@@ -39,4 +42,39 @@ header {
   height: 80px;
   width: 100%;
   background-color: rgba(34,100,120,1);
+}
+
+.heading h2 {
+  padding :570px 0px 0px 0px;
+  font-size: 50px;
+  color: black;
+  letter-spacing: 3px;
+}
+
+.lesson-icon img{
+    float: left;
+    width: 370px;
+    padding-bottom: 150px;
+}
+
+.lesson-icon p{
+  float: left;
+  padding-left: 40px;
+}
+
+.heading h3 {
+  padding : 700px 0px 0px 0px;
+  font-size: 50px;
+  color: black;
+  letter-spacing: 3px;
+}
+.photo img{
+  float: left;
+  width: 390px;
+  padding-bottom: 40px;
+}
+
+.photo p{
+  color: red;
+  padding-bottom: 20px;
 }
