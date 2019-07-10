@@ -7,14 +7,6 @@ a {
   text-decoration: none;
 }
 
-#Profile{
-  padding-top: 100px;
-}
-#Profile {
-   margin-top:-100px;
-  padding-top:100px;
-}
-
 .container {
   width: 1170px;
   padding: 0px 15px;
