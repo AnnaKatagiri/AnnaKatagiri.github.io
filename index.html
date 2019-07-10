@@ -14,7 +14,7 @@ $(function(){
       var speed = 1000;
       var href= $(this).attr("href");
       var target = $(href == "#" || href == "" ? 'html' : href);
-      var position = target.offset().top - 50 ;
+      var position = target.offset().top - 100;
       $('body,html').animate({scrollTop:position}, speed, 'swing');
       return false;
    });
@@ -22,12 +22,11 @@ $(function(){
 </script>
   </head>
   <body>
-    <div id="header">
-      </div>
-    <div id="content">
-      <a href="#Top" data-scroll><i class="fas fa-user-alt"></i>Top</a>
-      <a href="#Profile" data-scroll><i class="fas fa-user-alt"></i>Profile</a>
-      <a href="#Hobby" data-scroll><i class="fas fa-camera-retro"></i>Hobby</a>
+    <header>
+      <a href="#Top" data-scroll>Top</a>
+      <a href="#Profile" data-scroll>Profile</a>
+      <a href="#Hobby" data-scroll>Hobby</a>
+    </header>
     <div id="Top" class="top-wrapper">
       <div class="container">
         <h1>ANNA KATAGIRI</h1>
@@ -38,7 +37,7 @@ $(function(){
     <div class="lesson-wrapper">
       <div class="container">
       <div class="heading">
-        <h2 id="Profile"　class="anchor"><i class="fas fa-user-alt"></i>Profile</h2>
+        <h2 id="Profile"><i class="fas fa-user-alt"></i>Profile</h2>
       </div>
       <div class="lessons">
         <div class="lesson">
@@ -61,7 +60,7 @@ $(function(){
       <div class="hobby-wrapper">
         <div class="container">
         <div class="heading">
-          <h3><h2 id="Hobby" class="anchor"><i class="fas fa-camera-retro"></i>Hobby</h3>
+          <h3><h2 id="Hobby"><i class="fas fa-camera-retro"></i>Hobby</h3>
         </div>
           <div class="hobby">
             <div class="hobby-icon">
@@ -131,13 +130,11 @@ $(function(){
               <img src="b-14.jpg"/></a>
               <a href="b-15.jpg" data-lightbox="photo">
               <img src="b-15.jpg"/></a>
-              <p>現在サイト調整中です(2019.07.10)</p>
-              <p>スムーススクロールが効かない原因を調査中(2019.07.10)</p>
+              <p>現在サイト調整中です(2019.06.26)</p>
         </div>
         </div>
         </div>
         </div>
-      </div>
 
 
   <footer>
