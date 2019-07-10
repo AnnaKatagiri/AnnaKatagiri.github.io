@@ -14,7 +14,7 @@ $(function(){
       var speed = 1000;
       var href= $(this).attr("href");
       var target = $(href == "#" || href == "" ? 'html' : href);
-      var position = target.offset().top - 88;
+      var position = target.offset().top - ;
       $('body,html').animate({scrollTop:position}, speed, 'swing');
       return false;
    });
@@ -133,6 +133,7 @@ $(function(){
               <a href="b-15.jpg" data-lightbox="photo">
               <img src="b-15.jpg"/></a>
               <p>現在サイト調整中です(2019.07.10)</p>
+              <p>スムーススクロールが効かない原因を調査中(2019.07.10)</p>
         </div>
         </div>
         </div>
