@@ -13,6 +13,11 @@ a {
   margin: 0 auto;
 }
 
+.anchor {
+  margin-top: -６0px;
+  padding-top: ６0px;
+}
+
 .font_test{
   color: #0489B1;
 }
