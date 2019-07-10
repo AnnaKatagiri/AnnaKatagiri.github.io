@@ -13,11 +13,6 @@ a {
   margin: 0 auto;
 }
 
-.anchor {
-  margin-top: -６0px;
-  padding-top: ６0px;
-}
-
 .font_test{
   color: #0489B1;
 }
@@ -43,30 +38,10 @@ a {
 
 }
 
-#header {
-  height: 50px;
+header {
+  height: 80px;
   width: 100%;
   background-color: rgba(34,100,120,1);
-  position:fixed;
-}
-
-#header a{
-  font-size: 40px;
-  color: white;
-  margin-left: 50px;
-}
-
-#content{
-    padding-top: 60px;
-    height: 100px
-}
-
-#Profile {
-    margin-top:-60px;
-}
-
-#Hobby {
-    margin-top:-60px;
 }
 
 
@@ -106,3 +81,4 @@ a {
   float: light;
   width: 380px
 }
+
