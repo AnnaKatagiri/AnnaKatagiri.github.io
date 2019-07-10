@@ -43,17 +43,30 @@ a {
 
 }
 
-.header {
+#header {
   height: 50px;
   width: 100%;
   background-color: rgba(34,100,120,1);
   position:fixed;
 }
 
-.header a{
+#header a{
   font-size: 40px;
   color: white;
   margin-left: 50px;
+}
+
+#content{
+    padding-top: 60px;
+    height: 100px
+}
+
+#Profile {
+    margin-top:-60px;
+}
+
+#Hobby {
+    margin-top:-60px;
 }
 
 
