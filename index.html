@@ -14,7 +14,7 @@ $(function(){
       var speed = 1000;
       var href= $(this).attr("href");
       var target = $(href == "#" || href == "" ? 'html' : href);
-      var position = target.offset().top - 100;
+      var position = target.offset().top - 88;
       $('body,html').animate({scrollTop:position}, speed, 'swing');
       return false;
    });
@@ -23,9 +23,11 @@ $(function(){
   </head>
   <body>
     <header>
-      <a href="#Top" data-scroll>Top</a>
-      <a href="#Profile" data-scroll>Profile</a>
-      <a href="#Hobby" data-scroll>Hobby</a>
+      <div class="header">
+      <a href="#Top" data-scroll><i class="fas fa-user-alt"></i>Top</a>
+      <a href="#Profile" data-scroll><i class="fas fa-user-alt"></i>Profile</a>
+      <a href="#Hobby" data-scroll><i class="fas fa-camera-retro"></i>Hobby</a>
+      </div>
     </header>
     <div id="Top" class="top-wrapper">
       <div class="container">
