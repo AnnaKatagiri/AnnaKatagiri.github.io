@@ -17,6 +17,11 @@ a {
   color: #0489B1;
 }
 
+.header {
+  height: 50px
+}
+  
+
 .top-wrapper {
   padding: 250px 0px 100px 0px;
   height: 600px;
