@@ -38,14 +38,14 @@ a {
 
 }
 
-header {
-  height: 500px;
+.header {
+  height: 50px;
   width: 100%;
   background-color: rgba(34,100,120,1);
   position:fixed;
 }
 
-header a{
+.header a{
   font-size: 40px;
   color: white;
   margin-left: 50px;
