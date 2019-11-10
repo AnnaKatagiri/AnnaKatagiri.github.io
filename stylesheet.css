@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  font-family: "Microsoft Sans Serif";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0px 15px;
+  margin: 0 auto;
+}
+
+.font_test{
+  color: #0489B1;
+}
+
+.top-wrapper {
+  padding: 250px 0px 100px 0px;
+  height: 600px;
+  background-image: url(asagohan.jpg);
+  color: white;
+  background-size: cover;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 70px;
+  letter-spacing: 2px;
+  color: black;
+}
+
+.top-wrapper p {
+  color: black;
+  font-size: 20px;
+
+}
+
+.header {
+  height: 50px;
+  width: 100%;
+  background-color: rgba(34,100,120,1);
+  position:fixed;
+}
+
+.header a{
+  font-size: 40px;
+  color: white;
+  margin-left: 50px;
+}
+
+
+.heading h2 {
+  padding :20px 0px 0px 0px;
+  font-size: 50px;
+  color: black;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.lesson-icon img{
+    float: left;
+    width: 350px;
+    padding-bottom: 0px;
+}
+
+.lesson-icon p{
+  float: left;
+  padding-left: 40px;
+}
+
+.hobby-wrapper {
+  padding: 0px 0px 0px 0px;
+  text-align: center;
+}
+
+.work-wrapper {
+  padding: 500px 0px 0px 0px;
+  text-align: center;
+}
+
+.heading h3 {
+  padding :20px 0px 0px 0px;
+  font-size: 50px;
+  color: black;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.hobby-icon img{
+  float: light;
+  width: 380px
+}
+
+.work-icon img{
+  float: light;
+  width: 900px
+}
